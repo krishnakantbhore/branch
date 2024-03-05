@@ -6,8 +6,9 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class BranchApplication {
-
+ 
 	public static void main(String[] args) {
+		System.out.println("======");
 		SpringApplication.run(BranchApplication.class, args);
 	}
 
